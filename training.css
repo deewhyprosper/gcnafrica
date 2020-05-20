@@ -19,7 +19,7 @@ header{
   background-color:orange;
   color: #fff;
   padding-top: 30px;
-  min-height: 70px;
+  min-height: 35px;
   border-bottom: #e8491d 3px solid;
 }
 header a{
@@ -34,10 +34,11 @@ header ul{
   padding: 0;
 }
 
+
 header li{
   float: left;
   display: inline;
-  padding: 0 15px 0 15px;
+  padding: 0 5px 0 10px;
 }
 header #branding{
   float: left;
@@ -58,6 +59,8 @@ header a:hover{
   color:#cccccc;
   font-weight: bold;
 }
+
+
 
 #showcase h1{
   margin-top: 100px;
