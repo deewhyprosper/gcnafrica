@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- about author
+email: oluokundoyin@gmail.com
+phone: 08063061639 -->
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device">
+	<title>Contact - Green Circle Network</title>
+		<!-- favicon -->
+<link rel="icon" href="fav.png" sizes="16x16" type="image/png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+	<link rel="stylesheet" type="text/css" href="Contact.css">
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title>
+</head>
+<body>
+
+	<!-- Company logo -->
+
+<img src="IMG_9987.JPG">
+<!-- end -->
+
+<header>
+		<div class="container">
+			<div id="branding">
+				
+
+			</div>
+			<!-- <header></header> -->
+			<nav>
+				    <ul>
+					
+	            <li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="projects.html">Project</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="support.html">Support</a></li>
+				<li><a href="training.html">Training</a></li>
+				<li class="current"><a href="Contact Us.html">contact Us</a></li>
+				    </ul>
+			</nav>
+			<!-- <header></header> ended -->
+		</div>
+	</header>
+
+	   <section id="showcase">
+	   	<div class="container">
+	   		
+	   		
+	   	</div>
+	   </section>
+	   
+	   	<div class="container">
+	   		
+	   		
+	   	</div>
+
+	   	<br><br><br>
+
+	   	<!-- slide bar start here --> 
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">1 / 2</div> -->
+  <img src="contactus.JPG" style="width:100%">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+ <!--  <div class="numbertext">2 / 2</div> -->
+  <img src="me.JPG" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+ <!-- prev and next function -->
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<br>
+
+
+   <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+
+  </div>
+
+
+  <!-- functions -->
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<!-- slide bar ends here -->
+
+<br><br>
+
+ <h1 style="text-align: center; font-family: arial"> CONTACT US</h1>
+
+</body>
+<!-- contact us -->
+
+<div class="container">
+  <form method="post" action="contact_me.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname"  placeholder="Your name.." name="fname" required="">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname"  placeholder="Your last name.." name="lname" required="">
+
+   
+    <label for="lname">Email</label>
+    <input type="text" id="lname" placeholder="Enter Your Email.." name="email" required="">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject"  placeholder="Write something.." name="message" required="" style="height:200px"></textarea>
+
+    <input  type="submit"  value="Submit". >
+  </form>
+</div> <br>
+<!-- ended -->
+ <br><br>
+<!-- company map -->
+
+<div class="elementor-element elementor-element-43c8f13 elementor-column elementor-col-50 elementor-top-column" data-id="43c8f13" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b9bab18 elementor-widget elementor-widget-google_maps" data-id="b9bab18" data-element_type="widget" data-widget_type="google_maps.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-custom-embed"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=5%2C%20Isaac%20John%2C%20GRA%20Ikeja%2C%20Lagos%20State&amp;t=m&amp;z=19&amp;output=embed&amp;iwloc=near" aria-label="5, Isaac John, GRA Ikeja, Lagos State"></iframe></div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+
+
+
+<!-- ended here -->
+<br><br>
+<div class="container">
+
+  <div class="card">
+    <div class="card-body" style="text-align: center;"><strong>Lagos</strong></div>
+    <p style="text-align: center;">5, Isaac John, GRA Ikeja, Lagos State</p>
+  </div>
+</div>
+
+<br>
+<div class="container">
+
+  <div class="card">
+    <div class="card-body" style="text-align: center;"><strong>Ibadan</strong></div>
+    <p style="text-align: center;">14, Paul Hendericks Avenue, Bodija, Ibadan, Oyo State.</p>
+  </div>
+</div>
+
+<br>
+<div class="container">
+
+  <div class="card">
+    <div class="card-body" style="text-align: center;"><strong>Ogun</strong></div>
+    <p style="text-align: center;">Ogun TechHub, Along Abẹ́òkúta Sagamu express way, Abeokuta, Ogun State</p>
+  </div>
+</div>
+
+<br><br>
+
+ <div class="contactme">
+ 	<img src="IMG_9967.JPG" style="width: 80%;"><br>
+ 	<p style="color: green; font-size: 10px;"> An Interactive Learning Classroom</p>
+
+
+ <br><br>
+
+
+
+ <img src="IMG_9966.JPG" style=" width: 80%;"><br><br>
+
+ <p style="color: green; font-size: 10px;">
+
+ The MD, GCNA West-Africa, Mr. Ladipo Oke,at the <br>HITACHI Head-Quarters in the United Kingdom.</p>
+
+<br><br><br>
+
+  		</div>
+	   	</div>
+	   </section>
+
+	   <footer>
+	   	 Copyright &copy; 2020 - Green Circle Network Africa | Talent Centre <sup>TM</sup> | Hitachi Solution - EU | All Rights Reserved </p>
+	   	 <a href="http://facebook.com/" class="fa fa-facebook"></a>
+<a href="http://twitter.com" class="fa fa-twitter"></a>
+<a href="http://google.com" class="fa fa-google"></a>
+<a href="http://linkedin.com" class="fa fa-linkedin"></a>
+<a href="http://youtube.com" class="fa fa-youtube"></a>
+<a href="http://instagram.com" class="fa fa-instagram"></a>
+<a href="http://yahoo.com" class="fa fa-yahoo"></a>
+<br>
+<div style="justify-content: space-around; display: flex;">
+	<p>Get in Touch <br> phone: 07066498356 <br> Email: info@gcnafrica.com</p>
+</div>
+</div>
+	   </footer>
+</body>
+ </div>
+</body>
+</html>
